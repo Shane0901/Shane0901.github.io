@@ -6,6 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="imgs/favico.png" sizes="16x16">
+    
+
   <!--stylesheet-->
     <link rel="stylesheet" href="css/style.css" type="text/css" >
 
@@ -29,9 +33,9 @@
           <h1 class="text-uppercase"><strong>Need To Contact Us?</strong></h1>
 
 <div class="container">
-    <form action="contactform.php" method="POST" enctype="text/plain">
+    <form action="contactform.php" method="post" id="contact-form" enctype="text/plain">
       <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      <input type="text" id="mail" name="mail" placeholder="Email.." required="required">
+      <input type="text" id="mail" name="email" placeholder="Email.." required="required">
       <textarea id="subject" name="subject" placeholder="Your Message Here!" style="height:200px"></textarea>
       <button type="submit" name="submit">Submit</button>
 </div>
