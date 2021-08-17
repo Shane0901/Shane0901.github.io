@@ -1,7 +1,5 @@
-body,
+body, 
 html {
-  width: 100%;
-  height: 100%;
   font-family: 'Montserrat', sans-serif;
   background: url("../imgs/bklanding.jpg")no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -10,19 +8,57 @@ html {
   background-size: cover;
 }
 
-h1 {
-  font-size: 3rem;
-  color: #e2dbdb;
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: inherit;
+  padding: 10px;
 }
 
-hr {
-  border-color: #F05F44;
-  border-width: 3px;
-  max-width: 65px;
+/*header*/
+header {
+  display: center;
+  text-align: center;
+  color: #166110;
+}
+/*colours used*/
+/*#4d4b4b gray*/
+/*#166110 Green*/
+
+ ul {
+  list-style-type: none;
+ }
+
+ li {
+  display:  inline;
+  border-radius: 25px;
+  padding: 15px;
+  width: 200px;
+  height: 150px;
+ }
+
+.logo {
+  width: 10%;
+  height: 10%;
+  background-color: black;
+  opacity:  0.6;
+  border-radius: 100px;
+}
+
+.navigation {
+    background-color: black;
+    opacity: 0.6;
+  }
+/*body*/
+
+.row {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+  background: rgba(255,255,255,0.5);
 }
 
 /*Footer*/
-.footer {
+footer {
   position: absolute;
   width: 100%;
   background-color: black;
@@ -31,39 +67,3 @@ hr {
   text-align: center;
 }
 
-/*Form*/
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 6px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 20px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-
-
-button[type=submit] {
-  padding: 12px 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: 700;
-  border-radius: 300px;
-  text-transform: uppercase;
-}
-
-button[type=submit]:hover {
-  background-color: #7c84d6;
-  padding: 1rem 2rem;
-  border-color: #ee4b08;
-  border-width: 4px;
-  border-radius: 300px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.container {
-  border-radius: 5px;
-  padding: 10px;
-}
